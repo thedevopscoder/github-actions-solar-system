@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: solar-system
+  annotations:
+    backstage.io/kubernetes-id: solar
+  description: "A simple HTML+MongoDB+NodeJS project to display Solar System and it's planets."
+  tags:
+    - html
+    - NodeJs
+    - website
+spec:
+  type: service
+  lifecycle: production
+  owner: GitHub
