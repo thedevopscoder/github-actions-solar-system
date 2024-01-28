@@ -2,6 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: solar-system
+  links:
+    - url: https://dashboard.example.com
+      title: My Dashboard
+      icon: dashboard
   annotations:
     backstage.io/kubernetes-id: solar
   description: "A simple HTML+MongoDB+NodeJS project to display Solar System and it's planets."
