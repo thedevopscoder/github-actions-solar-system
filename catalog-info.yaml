@@ -8,6 +8,7 @@ metadata:
       icon: dashboard
   annotations:
     backstage.io/kubernetes-id: solar
+    github.com/project-slug: 'thedevopscoder/github-actions-solar-system'
   description: "A simple HTML+MongoDB+NodeJS project to display Solar System and it's planets."
   tags:
     - html
